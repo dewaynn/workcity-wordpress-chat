@@ -1,0 +1,235 @@
+.workcity-chat-box {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.workcity-chat-box.dark {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+.workcity-chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.workcity-chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.workcity-chat-box.dark .workcity-chat-messages {
+    background: #333;
+}
+
+#chat-input {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 20%;
+    padding: 8px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.chat-product-context {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f1f1f1;
+    text-align: center;
+}
+.typing-indicator {
+    font-style: italic;
+    color: #555;
+    padding: 5px 0;
+}
+.workcity-chat-box {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.workcity-chat-box.dark {
+    background: #1e1e1e;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+}
+
+.workcity-chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.workcity-chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    scroll-behavior: smooth;
+}
+
+.workcity-chat-box.dark .workcity-chat-messages {
+    background: #333;
+}
+
+.chat-message {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 20px;
+    max-width: 70%;
+    clear: both;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    word-wrap: break-word;
+}
+
+.chat-message.user {
+    background-color: #0073aa;
+    color: #fff;
+    float: right;
+    border-bottom-right-radius: 0;
+}
+
+.chat-message.admin {
+    background-color: #eee;
+    color: #333;
+    float: left;
+    border-bottom-left-radius: 0;
+}
+
+.chat-product-context {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f1f1f1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.workcity-chat-box.dark .chat-product-context {
+    background: #222;
+    border-color: #444;
+}
+
+.typing-indicator {
+    font-style: italic;
+    color: #555;
+    padding: 5px 0;
+    clear: both;
+    font-size: 0.85rem;
+}
+
+.workcity-chat-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#chat-input {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.workcity-chat-box.dark #chat-input {
+    background: #444;
+    color: #fff;
+    border-color: #555;
+}
+
+button[type="submit"] {
+    padding: 8px 20px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #005177;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label {
+    background: #0073aa;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+
+.upload-label:hover {
+    background: #005177;
+}
+
+.file-name {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.workcity-chat-box.dark .file-name {
+    color: #ccc;
+}
+
+#toggle-mode {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #0073aa;
+    transition: color 0.3s ease;
+}
+
+.workcity-chat-box.dark #toggle-mode {
+    color: #66ccff;
+}
+
+#toggle-mode:hover {
+    color: #005177;
+}
+
+.workcity-chat-box.dark #toggle-mode:hover {
+    color: #99ddff;
+}
